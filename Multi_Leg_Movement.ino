@@ -235,6 +235,15 @@ void loop(){
       case 0xFF42BD:
         Serial.println("7");
 
+        servo1.write(10);
+        servo2.write(10);
+        servo5.write(10);
+        servo6.write(10);
+        delay(500);
+        servo3.write(170);
+        servo4.write(170);
+        servo7.write(170);
+        servo8.write(170);
         
         break ;
       case 0xFF4AB5:
