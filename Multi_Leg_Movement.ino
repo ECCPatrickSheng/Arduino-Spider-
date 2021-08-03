@@ -97,7 +97,29 @@ void loop(){
       case 0xFF18E7:
         Serial.println("2");
 
-       
+        servo1.write(70);
+        servo2.write(70);
+        delay(200);
+        servo7.write(110);
+        servo8.write(110);
+        delay(1000);
+        servo3.write(70);
+        servo4.write(70);
+        delay(200);
+        servo5.write(110);
+        servo6.write(110);
+        delay(2000);
+        servo1.write(90);
+        servo2.write(90);
+        delay(200);
+        servo5.write(90);
+        servo6.write(90);
+        delay(200);
+        servo3.write(90);
+        servo4.write(90);
+        delay(200);
+        servo7.write(90);
+        servo8.write(90);
        
         break ;
       case 0xFF7A85:
