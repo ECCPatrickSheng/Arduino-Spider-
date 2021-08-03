@@ -277,6 +277,31 @@ void loop(){
         
         break ;
       case 0xFF52AD:
+        
+        Serial.println("9");
+        servo1.write(180);
+        servo2.write(180);
+        delay(1000);
+        servo3.write(180);
+        servo4.write(180);
+        delay(1000);
+        servo5.write(180);
+        servo6.write(180);
+        delay(1000);
+        servo7.write(180);
+        servo8.write(180);
+        delay(1000);
+        servo1.write(90);
+        servo2.write(90);
+        delay(1000);
+        servo3.write(90);
+        servo4.write(90);
+        delay(1000);
+        servo5.write(90);
+        servo6.write(90);
+        delay(1000);
+        servo7.write(90);
+        servo8.write(90);
       
         break;
 
